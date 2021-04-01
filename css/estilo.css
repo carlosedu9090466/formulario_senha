@@ -1,0 +1,77 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: url(../imagens/back-img.jpg) no-repeat;
+
+    /* imagem cobre a página 100% */
+    background-size: 100%;
+}
+
+.content-fluid{
+    width: auto;
+    height: auto;
+}
+
+
+.logo_base{
+    /* ba no back sinaliza a transparência da cor na tela. */
+    background:#ffffffba;
+    max-width: 30%;
+    margin-top: 4%;
+    margin-left: 35%;
+    border-radius: 3%;
+}
+
+.imgLogo{
+    width: 50%;
+    margin-top: 4%;
+}
+
+.logo{
+    text-align: center;
+}
+
+.forLogin{
+   
+    padding: 8%;
+    margin-top: 4%;
+}
+
+/*
+.forLogin form a{
+    text-decoration: none;
+    color: red;
+}
+*/
+
+.titu{
+     margin-top: 4%;
+    /*margin-left: 19%; */
+    text-align: center;
+}
+
+.msg-sucesso{
+    background: rgba(14, 138, 51, 0.418);
+    background: #dfdfdf;
+    max-width: 100%;
+    margin-top: 3%;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 5%;
+    padding: 1%;
+}
+
+.msg-erro{
+    background: #b10c0caf;
+    max-width: 100%;
+    margin-top: 3%;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 5%;
+    padding: 1%;
+}
